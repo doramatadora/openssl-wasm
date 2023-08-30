@@ -1,10 +1,8 @@
-# OpenSSL 3 (libcrypto and libtls) for WebAssembly
+# OpenSSL 3.2.0-dev (libcrypto and libtls) for wasm32-wasi
 
-This is OpenSSL, compiled to WebAssembly/WASI.
+This is OpenSSL, compiled for wasm32-wasi.
 
-Up-to-date. Maintained.
-
-Related: [BoringSSL for WebAssembly](https://github.com/jedisct1/boringssl-wasm).
+Related: [OpenSSL for WebAssembly](https://github.com/jedisct1/openssl-wasm). [BoringSSL for WebAssembly](https://github.com/jedisct1/boringssl-wasm).
 
 ## Precompiled library
 
