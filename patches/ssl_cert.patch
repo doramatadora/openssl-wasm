@@ -1,8 +1,8 @@
 diff --git a/ssl/ssl_cert.c b/ssl/ssl_cert.c
-index 1c4f4529..97725de6 100644
+index 126be66..014295a 100644
 --- a/ssl/ssl_cert.c
 +++ b/ssl/ssl_cert.c
-@@ -829,6 +829,7 @@ int SSL_add_file_cert_subjects_to_stack(STACK_OF(X509_NAME) *stack,
+@@ -863,6 +863,7 @@ int SSL_add_file_cert_subjects_to_stack(STACK_OF(X509_NAME) *stack,
      return ret;
  }
  
@@ -10,7 +10,7 @@ index 1c4f4529..97725de6 100644
  int SSL_add_dir_cert_subjects_to_stack(STACK_OF(X509_NAME) *stack,
                                         const char *dir)
  {
-@@ -876,6 +877,7 @@ int SSL_add_dir_cert_subjects_to_stack(STACK_OF(X509_NAME) *stack,
+@@ -918,6 +919,7 @@ int SSL_add_dir_cert_subjects_to_stack(STACK_OF(X509_NAME) *stack,
  
      return ret;
  }
